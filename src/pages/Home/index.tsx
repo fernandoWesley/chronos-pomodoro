@@ -3,15 +3,17 @@ import { CountDown } from "../../components/CountDown";
 import { MainForm } from "../../components/MainForm";
 import { MainTemplate } from "../../templates/MainTemplate";
 
-export function Home() {    
+
+export function Home() {
+
     return (         
-        <MainTemplate>
+        <MainTemplate>           
             <Container>
                 <CountDown />
             </Container>
             
             <Container>
-                <MainForm />
+                <MainForm  />
             </Container>
         </MainTemplate>    
     )
